@@ -28,7 +28,6 @@ namespace API.Controllers
         }
 
         // Récupère la liste des utilisateurs
-
         [HttpGet]
         public async Task<ActionResult<IEnumerable<MemberDto>>> GetUsers([FromQuery]UserParams userParams)
         {
